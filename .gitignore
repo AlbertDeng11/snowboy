@@ -7,7 +7,6 @@ Snowboy.pm
 *.dylib
 *.pyc
 *.o
-*.so
 *.swp
 *.swo
 
