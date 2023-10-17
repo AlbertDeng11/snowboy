@@ -7,8 +7,9 @@
 
 
 
-
+import sys
 from sys import version_info
+sys.path.insert(0, '/snowboy-master/lib/ubuntu64/pmdl/')
 if version_info >= (2, 6, 0):
     def swig_import_helper():
         from os.path import dirname
